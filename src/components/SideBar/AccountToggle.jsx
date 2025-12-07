@@ -8,9 +8,9 @@ const AccountToggle = () => {
             <img  className="size-8 rounded shrink-0 bg-violet-500 shadow" src={man} alt="" />
             <div className="text-start">
                 <span className="text-sm font-semibold block">
-                    Tom is Loading
+                    Aya is Here...!
                 </span>
-                <span className="text-xs block text-stone-500">tom@hover.dev</span>
+                <span className="text-xs block text-stone-500">ayajouneyofficial@gmail.com</span>
             </div>
             <FiChevronDown className="absolute right-2 top-1/2 translate-y-[calc(-50%+4px)] text-xs"  />
             <FiChevronUp className="absolute right-2 top-1/2 translate-y-[calc(-50%-4px)] text-xs"  />

@@ -4,6 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // When deploying to GitHub Pages for a project site, set base to '/<repo>/'
+  // so asset URLs resolve correctly. Change '/dashboard/' if your repo name differs.
+  base: '/dashboard/',
   plugins: [
     tailwindcss(),
     react({
